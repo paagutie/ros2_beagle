@@ -4,6 +4,7 @@ Beaglebone Blue under ROS2
 # Description
 
 The project includes the possibility of using the 8 servo outputs provided by the beaglebone blue board, as well as reading data from the MEMS MPU9250 under ROS2 Dashing and Ubuntu 18.04. The ROS2 driver for a generic Linux joystick is used to test the motors.
+
 Due to the architecture of the processor on the beaglebone board, the installation of ROS2 was carried out using a script hosted in the project (ros2_dashing_ubuntu_arm32v7).
 
 # Requirements
