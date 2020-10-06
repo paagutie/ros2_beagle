@@ -1,10 +1,3 @@
-/**
- * Madgwick.hpp
- *
- * @author     Pablo Gutiérrez
- * @date       28/08/2020
- */
-
 #ifndef _MADGWICK_HPP
 #define _MADGWICK_HPP
 
