@@ -7,8 +7,8 @@ Due to the architecture of the processor on the beaglebone board, the installati
 
 #Requirements
 
-> ROS2 Dashing Diademata or Eloquent Elusor.
-> Ubuntu 18.04
+- ROS2 Dashing Diademata or Eloquent Elusor.
+- Ubuntu 18.04
 
 #Installation
 ```
