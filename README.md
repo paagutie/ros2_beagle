@@ -23,27 +23,32 @@ $ colcon build
 
 ## On the main Computer ##
 ```
-& source /opt/ros/dashing/setup.bash
+$ source /opt/ros/dashing/setup.bash
 $ ros2 run joy joy_node
 ```
 ## On the Beaglebone Blue ##
-To launch the nodes independently you can use the following commands for each node respectively.
+To launch the nodes independently you can use the following commands as root user for each node respectively.
 
 ###### Terminal 1 ######
 ```
-$ source install/local_setup.bash
-$ ros2 run beagle_io beagle_io_servos
+:/home/beagle/ros2_beagle# source /home/beagle/ros2_dashing/install/local_setup.bash
+:/home/beagle/ros2_beagle# source install/local_setup.bash
+:/home/beagle/ros2_beagle# ros2 run beagle_io beagle_io_servos
 ```
 ###### Terminal 2 ######
 ```
-$ source install/local_setup.bash
-$ ros2 run beagle_io beagle_io_imu
+
+:/home/beagle/ros2_beagle# source /home/beagle/ros2_dashing/install/local_setup.bash
+:/home/beagle/ros2_beagle# source install/local_setup.bash
+:/home/beagle/ros2_beagle# ros2 run beagle_io beagle_io_imu
 ```
 
 To launch the nodes using a ros2 launch file
 ```
-$ source install/local_setup.bash
-$ ros2 launch beagle_launch beagle_launch.py
+
+:/home/beagle/ros2_beagle# source /home/beagle/ros2_dashing/install/local_setup.bash
+:/home/beagle/ros2_beagle# source install/local_setup.bash
+:/home/beagle/ros2_beagle# ros2 launch beagle_launch beagle_launch.py
 ```
 
 # License
